@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Switcher</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Switcher German cars</h1>
+            <ul class="tabs">
+                <li class="tab ">
+                    <a class = "data-switcher is-active" data-tab="BMW">BMW</a>
+                </li>
+                <li class="tab ">
+                    <a class = "data-switcher" data-switcher data-tab="mercedes">Mersedes</a>
+                </li>
+                <li class="tab">
+                    <a class = "data-switcher" data-switcher data-tab="Audi">Audi</a>
+                </li>
+                <li class="tab">
+                    <a class = "data-switcher" data-switcher data-tab="valswagen">volkswagen</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pages">
+            <img src="img/BMW.jpg" class = "Page is-active" data-page = "BMW" alt="">
+            <img src="img/mercedes.jpg" class = "Page" data-page = "mercedes" alt="">
+            <img src="img/Audi.jpg" class = "Page " data-page = "Audi" alt="">
+            <img src="img/valswagen.jpg" class = "Page" data-page = "valswagen" alt="">
+            
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
